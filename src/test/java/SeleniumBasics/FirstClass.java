@@ -27,6 +27,11 @@ public class FirstClass {
 		//or
 		browser.findElement(By.id("email")).sendKeys("kumar");
 		// browser.findElement(By.id("email")).clear();
+		
+		browser.findElement(By.name("email")).sendKeys("kumar");
+		
+		browser.findElement(By.linkText("Forgotten password?")).click();)
+	
 	}
 
 	public static void main(String[] args) {
