@@ -30,7 +30,7 @@ public class FirstClass {
 		
 		browser.findElement(By.name("email")).sendKeys("kumar");
 		
-		browser.findElement(By.linkText("Forgotten password?")).click();)
+		//browser.findElement(By.linkText("Forgotten password?")).click();)
 	
 	}
 
