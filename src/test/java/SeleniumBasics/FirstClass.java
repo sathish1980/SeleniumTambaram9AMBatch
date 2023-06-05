@@ -32,6 +32,7 @@ public class FirstClass {
 		
 		//browser.findElement(By.linkText("Forgotten password?")).click();)
 	
+		browser.findElement(By.xpath("//*[@type='text']")).sendKeys("sathish");
 	}
 
 	public static void main(String[] args) {
