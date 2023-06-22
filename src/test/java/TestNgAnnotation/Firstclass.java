@@ -3,37 +3,37 @@ import org.testng.annotations.*;
 
 public class Firstclass {
 	
-	@BeforeSuite
+	@BeforeSuite(alwaysRun=true)
 	public void BeforeSuite()
 	{
 		System.out.println("Before Suite");
 	}
 	
-	@BeforeTest
+	@BeforeTest(alwaysRun=true)
 	public void BeforeTest()
 	{
 		System.out.println("Before Test");
 	}
 	
-	@AfterTest
+	@AfterTest(alwaysRun=true)
 	public void AfterTest()
 	{
 		System.out.println("After Test");
 	}
 	
-	@BeforeClass
+	@BeforeClass(alwaysRun=true)
 	public void Beforeclass()
 	{
 		System.out.println("Before class");
 	}
 	
-	@AfterClass
+	@AfterClass(alwaysRun=true)
 	public void Before()
 	{
 		System.out.println("After class");
 	}
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void BeforeMethod()
 	{
 		System.out.println("Before method");
@@ -45,19 +45,19 @@ public class Firstclass {
 		System.out.println("After method");
 	}
 	
-	@Test(priority=0)
+	@Test(priority=0,dependsOnMethods="Testcase1",groups="sanity")
 	public void Testcase2()
 	{
 		System.out.println("Testcase2");
 	}
 	
-	@Test(priority=1,enabled=true,description="username",invocationCount=4,invocationTimeOut=60,timeOut=60)
+	@Test(priority=2,enabled=true,description="username",invocationCount=4,invocationTimeOut=60,timeOut=6,groups= {"sanity","sit"})
 	public void Testcase1()
 	{
 		System.out.println("Testcase1");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=1,groups="sit")
 	public void Testcase3()
 	{
 		System.out.println("Testcase3");
