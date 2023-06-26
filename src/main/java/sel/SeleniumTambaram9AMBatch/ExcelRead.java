@@ -14,7 +14,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelRead {
 	
-	String filepath = "C:\\Users\\sathishkumar\\eclipse-workspace\\SeleniumTambaram9AMBatch\\Input\\Sample.xls";
+	// String filepath = "C:\\Users\\sathishkumar\\eclipse-workspace\\SeleniumTambaram9AMBatch\\Input\\Sample.xls";
+	String filepath = System.getProperty("User.dir")+"\\Input\\Sample.xls";
 	public void ReadData(String sheetName) throws IOException
 	{
 		FileInputStream FI = new FileInputStream(filepath);

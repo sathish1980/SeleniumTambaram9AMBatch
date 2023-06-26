@@ -1,62 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
+  <suite name="Suite" duration-ms="1679" started-at="2023-06-26T09:11:25 IST" finished-at="2023-06-26T09:11:27 IST">
     <groups>
-      <group name="sanity">
-        <method signature="Firstclass.Testcase1()[pri:2, instance:TestNgAnnotation.Firstclass@42607a4f]" name="Testcase1" class="TestNgAnnotation.Firstclass"/>
-      </group> <!-- sanity -->
-      <group name="sit">
-        <method signature="Firstclass.Testcase1()[pri:2, instance:TestNgAnnotation.Firstclass@42607a4f]" name="Testcase1" class="TestNgAnnotation.Firstclass"/>
-        <method signature="Firstclass.Testcase3()[pri:1, instance:TestNgAnnotation.Firstclass@42607a4f]" name="Testcase3" class="TestNgAnnotation.Firstclass"/>
-      </group> <!-- sit -->
     </groups>
-    <test name="Test" duration-ms="31" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
-      <class name="TestNgAnnotation.SecondClass">
-        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:TestNgAnnotation.SecondClass@6eceb130]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
+    <test name="Test" duration-ms="1679" started-at="2023-06-26T09:11:25 IST" finished-at="2023-06-26T09:11:27 IST">
+      <class name="TestCase.SampleTestCase">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:TestCase.SampleTestCase@1990a65e]" name="LaunchTheBrowser" is-config="true" duration-ms="4680" started-at="2023-06-26T09:11:20 IST" finished-at="2023-06-26T09:11:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- TestNgAnnotation.SecondClass -->
-      <class name="TestNgAnnotation.Firstclass">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:TestNgAnnotation.Firstclass@42607a4f]" name="BeforeSuite" is-config="true" duration-ms="6" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="LaunchTheApplicaton()[pri:0, instance:TestCase.SampleTestCase@1990a65e]" name="LaunchTheApplicaton" is-config="true" duration-ms="1650" started-at="2023-06-26T09:11:25 IST" finished-at="2023-06-26T09:11:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:TestNgAnnotation.Firstclass@42607a4f]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
+        </test-method> <!-- LaunchTheApplicaton -->
+        <test-method status="PASS" signature="FirstTestCase()[pri:0, instance:TestCase.SampleTestCase@1990a65e]" name="FirstTestCase" duration-ms="4" started-at="2023-06-26T09:11:27 IST" finished-at="2023-06-26T09:11:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="Beforeclass()[pri:0, instance:TestNgAnnotation.Firstclass@42607a4f]" name="Beforeclass" is-config="true" duration-ms="1" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
+        </test-method> <!-- FirstTestCase -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCase.SampleTestCase@1990a65e]" name="TearDown" is-config="true" duration-ms="634" started-at="2023-06-26T09:11:27 IST" finished-at="2023-06-26T09:11:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Beforeclass -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:TestNgAnnotation.Firstclass@42607a4f]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Testcase3()[pri:1, instance:TestNgAnnotation.Firstclass@42607a4f]" name="Testcase3" duration-ms="3" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase3 -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:TestNgAnnotation.Firstclass@42607a4f]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Testcase1()[pri:2, instance:TestNgAnnotation.Firstclass@42607a4f]" name="Testcase1" duration-ms="2" started-at="2023-06-22T09:08:01 IST" description="username" finished-at="2023-06-22T09:08:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase1 -->
-        <test-method status="PASS" signature="Before()[pri:0, instance:TestNgAnnotation.Firstclass@42607a4f]" name="Before" is-config="true" duration-ms="0" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Before -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestNgAnnotation.Firstclass@42607a4f]" name="AfterTest" is-config="true" duration-ms="0" started-at="2023-06-22T09:08:01 IST" finished-at="2023-06-22T09:08:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-      </class> <!-- TestNgAnnotation.Firstclass -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCase.SampleTestCase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
