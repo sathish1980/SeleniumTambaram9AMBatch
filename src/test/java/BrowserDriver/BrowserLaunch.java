@@ -6,12 +6,20 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 import Utils.PropertyReadData;
 
 public class BrowserLaunch 
 {
 
 	public static WebDriver driver;
+	
+	public static ExtentReports report;
+	public static ExtentTest test;
+	private String reportpath=System.getProperty("user.dir")+"//Reports//";
+	
 	public void Launch()
 	{
 		String browserName = PropertyReadData.propreaddata().getProperty("browser");
@@ -36,6 +44,8 @@ public class BrowserLaunch
 		{
 			System.out.println("Please provide the valid Browser name");
 		}
+		report = new ExtentReports(reportpath+"extentreport.html",false);
+		test= report.startTest("Makemytrip Automation report");
 		
 	}
 }

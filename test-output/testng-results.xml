@@ -2,24 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="1679" started-at="2023-06-26T09:11:25 IST" finished-at="2023-06-26T09:11:27 IST">
+  <suite name="Suite" duration-ms="17420" started-at="2023-06-27T09:38:46 IST" finished-at="2023-06-27T09:39:04 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1679" started-at="2023-06-26T09:11:25 IST" finished-at="2023-06-26T09:11:27 IST">
+    <test name="Test" duration-ms="17420" started-at="2023-06-27T09:38:46 IST" finished-at="2023-06-27T09:39:04 IST">
       <class name="TestCase.SampleTestCase">
-        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:TestCase.SampleTestCase@1990a65e]" name="LaunchTheBrowser" is-config="true" duration-ms="4680" started-at="2023-06-26T09:11:20 IST" finished-at="2023-06-26T09:11:25 IST">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:TestCase.SampleTestCase@2eda0940]" name="LaunchTheBrowser" is-config="true" duration-ms="3666" started-at="2023-06-27T09:38:43 IST" finished-at="2023-06-27T09:38:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchTheBrowser -->
-        <test-method status="PASS" signature="LaunchTheApplicaton()[pri:0, instance:TestCase.SampleTestCase@1990a65e]" name="LaunchTheApplicaton" is-config="true" duration-ms="1650" started-at="2023-06-26T09:11:25 IST" finished-at="2023-06-26T09:11:27 IST">
+        <test-method status="PASS" signature="LaunchTheApplicaton()[pri:0, instance:TestCase.SampleTestCase@2eda0940]" name="LaunchTheApplicaton" is-config="true" duration-ms="5091" started-at="2023-06-27T09:38:46 IST" finished-at="2023-06-27T09:38:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchTheApplicaton -->
-        <test-method status="PASS" signature="FirstTestCase()[pri:0, instance:TestCase.SampleTestCase@1990a65e]" name="FirstTestCase" duration-ms="4" started-at="2023-06-26T09:11:27 IST" finished-at="2023-06-26T09:11:27 IST">
+        <test-method status="PASS" signature="deleteAdds()[pri:0, instance:TestCase.SampleTestCase@2eda0940]" name="deleteAdds" is-config="true" duration-ms="5230" started-at="2023-06-27T09:38:52 IST" finished-at="2023-06-27T09:38:57 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FirstTestCase -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCase.SampleTestCase@1990a65e]" name="TearDown" is-config="true" duration-ms="634" started-at="2023-06-26T09:11:27 IST" finished-at="2023-06-26T09:11:27 IST">
+        </test-method> <!-- deleteAdds -->
+        <test-method status="PASS" signature="ValidFlightSearch()[pri:0, instance:TestCase.SampleTestCase@2eda0940]" name="ValidFlightSearch" duration-ms="7076" started-at="2023-06-27T09:38:57 IST" finished-at="2023-06-27T09:39:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidFlightSearch -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCase.SampleTestCase@2eda0940]" name="TearDown" is-config="true" duration-ms="910" started-at="2023-06-27T09:39:04 IST" finished-at="2023-06-27T09:39:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
