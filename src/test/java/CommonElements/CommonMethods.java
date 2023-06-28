@@ -17,6 +17,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CommonMethods {
 	
+	public void ClickOnBrowserBackButton(WebDriver driver)
+	{
+		driver.navigate().back();
+	}
+	
 	public void WaitForElementToBeVisible(WebDriver driver, By WaitForElement, int secondsToWait)
 	{
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(secondsToWait));

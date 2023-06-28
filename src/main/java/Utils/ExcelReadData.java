@@ -16,7 +16,7 @@ public class ExcelReadData {
 	static Object s;
 	String filepath=System.getProperty("user.dir")+"\\Input\\";
 
-	public Object[][]  ExcelReaddata(String Filename , String Sheetname) throws IOException
+	public Object[][]  ExcelRead(String Filename , String Sheetname) throws IOException
 	{
 		Object[][] excelreadarray = null;
 		File F= new File(filepath+Filename);
