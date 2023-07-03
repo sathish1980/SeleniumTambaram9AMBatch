@@ -27,15 +27,10 @@ public class SampleTestCase extends BrowserLaunch
 @BeforeSuite(alwaysRun = true)
 public void LaunchTheBrowser()
 {
-	Launch();
+
 }
 
-@BeforeTest
-public void LaunchTheApplicaton()
-{
-	String Url = PropertyReadData.propreaddata().getProperty("url");
-	driver.get(Url);
-}
+
 
 @BeforeClass
 public void deleteAdds() throws InterruptedException
@@ -70,7 +65,7 @@ public void ValidFlightSearch(String fromLocation, String toLocation, String fly
 		Srp.WaitAndClickOnOKGotItPopup();
 		test.log(LogStatus.INFO, "ok Got it popup is clicked suecssfully");
 		String actualResult = Srp.GetSearchResultValue();
-		
+		System.out.println(actualResult);
 		String validateScreenShot= c.takescreenshot(driver);
 		test.log(LogStatus.INFO, "Search Text is validated sucessfully");
 		System.out.println(s.ValidateTextForAssertion());

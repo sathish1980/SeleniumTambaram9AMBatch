@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="50019" started-at="2023-06-29T09:13:21 IST" finished-at="2023-06-29T09:14:11 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="50019" started-at="2023-06-29T09:13:21 IST" finished-at="2023-06-29T09:14:11 IST">
+      <class name="TestCase.SampleTestCase">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:TestCase.SampleTestCase@4493d195]" name="LaunchTheBrowser" is-config="true" duration-ms="2484" started-at="2023-06-29T09:13:19 IST" finished-at="2023-06-29T09:13:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="LaunchTheApplicaton()[pri:0, instance:TestCase.SampleTestCase@4493d195]" name="LaunchTheApplicaton" is-config="true" duration-ms="2281" started-at="2023-06-29T09:13:21 IST" finished-at="2023-06-29T09:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheApplicaton -->
+        <test-method status="PASS" signature="deleteAdds()[pri:0, instance:TestCase.SampleTestCase@4493d195]" name="deleteAdds" is-config="true" duration-ms="5228" started-at="2023-06-29T09:13:23 IST" finished-at="2023-06-29T09:13:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAdds -->
+        <test-method status="PASS" signature="ValidFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.SampleTestCase@4493d195]" name="ValidFlightSearch" duration-ms="17717" started-at="2023-06-29T09:13:29 IST" data-provider="searchCriteria" finished-at="2023-06-29T09:13:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidFlightSearch -->
+        <test-method status="PASS" signature="ValidFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.SampleTestCase@4493d195]" name="ValidFlightSearch" duration-ms="12782" started-at="2023-06-29T09:13:47 IST" data-provider="searchCriteria" finished-at="2023-06-29T09:13:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BOM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidFlightSearch -->
+        <test-method status="PASS" signature="ValidFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.SampleTestCase@4493d195]" name="ValidFlightSearch" duration-ms="11756" started-at="2023-06-29T09:13:59 IST" data-provider="searchCriteria" finished-at="2023-06-29T09:14:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DEL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BKK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidFlightSearch -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCase.SampleTestCase@4493d195]" name="TearDown" is-config="true" duration-ms="1022" started-at="2023-06-29T09:14:11 IST" finished-at="2023-06-29T09:14:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCase.SampleTestCase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
